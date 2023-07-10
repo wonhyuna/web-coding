@@ -1,0 +1,106 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 80px;
+}
+
+.title {
+  color: #12172a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 0 0 8px;
+}
+
+.description {
+  color: #818181;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 0;
+}
+
+.book {
+  background: #f4f5f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(18, 23, 42, 0.03);
+  margin: 64px 0;
+  padding: 24px 48px;
+}
+
+.book-container {
+  margin: 0 auto;
+  width: 324px;
+}
+
+.thumb {
+  border: 2px solid #595d6d;
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 23px rgba(16, 20, 32, 0.1));
+  margin-top: -56px;
+  width: 128px;
+}
+
+.book .title {
+  color: #12172a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 24px 0 8px;
+}
+
+a {
+  color: #12172a;
+  text-decoration: none;
+}
+
+a:hover { /*마우스를 호버할 시 밑줄이 보임 (가상클래스 - active, hover, focus, visited)*/
+  text-decoration: underline;
+}
+
+.book-description, .book-info {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.book-info {
+  background-color: #000000;
+  border-radius: 12px;
+  color: #ffffff;
+  margin: 24px 0;
+  padding: 12px 32px;
+  text-align: center;
+}
+
+.delay.book-info { /*delay랑 book-info 둘 다 갖고 있는 걸 선택함*/
+  background-color: #c76546;
+}
+
+
+/*
+p.delay.book-info (p태그에 클래스 이름들)
+p#shipping (p태그에 아이디 이름)
+#shipping.delay (아이디 이름에 클래스 이름 -> 순서 노 상관)*/
+
+.book-container > .title { /*바로 아래 자식 결합자 book-container의 자식인 title을 선택하는 것을 의미*/
+  color: #12172a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 24px 0 8px;
+} /*스타일을 덮어씀*/
+
+.book .date { /*자손 결합자 (태그 위치가 자주 바뀌므로 보통 자식 보다 자손 결합자를 많이 씀)*/
+  font-weight: 700; 
+}
+
+/*가상 클래스
+active: 클릭했을 때의 상태
+focus: 입력을 기다리고 있는 상황 (ex. 주소창에 주소를 입력하려고 할 때, 링크에 포커스할 때(tab키이용))
+hover: 마우스가 올리고 있을 때
+visited: 링크를 이동하고 왔을 때*/
+
+
+/*선택자 추가사항
+.gallery > * (gallery의 모든 자식 요소)
+.gallery: nth-child(3), nth-child(even), nth-child(2n+1), first-child, last-child*/
