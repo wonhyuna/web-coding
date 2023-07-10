@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, 'Noto Sans KR', sans-serif;
+  margin: 0;
+}
+
+.main{
+  background-image: url('bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .content{
+  width: 720px;
+  margin: 0 auto;
+  padding: 80px 0 280px;
+}
+
+#logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-left: 40px;
+}
+
+#logo span{
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.main .content #line1{
+  font-size: 20px;
+  font-weight: 500;
+  color: #8287a4;
+  padding-bottom: 12px;
+  margin: 0 auto;
+}
+
+.main .content #line2{
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 14px;
+  margin: 0 auto;
+}
+
+.main .content #line3{
+  font-size: 14px;
+  font-weight: 400;
+  color: #8287a4;
+  margin: 0 auto;
+}
+
+.chainit{
+  padding: 86px 0 64px;
+  width: 720px;
+  margin: 0 auto;
+}
+
+#name1{
+  font-size: 36px;
+  font-weight: 700;
+  color: #161346;
+  margin: 0 auto;
+}
+
+.chainit img{
+  width: 720px;
+  border-radius: 24px;
+  margin-top: 42px;
+}
+
+.chainit #chainit_line1{
+  font-size: 16px;
+  font-weight: 500;
+  color: #4c497b;
+  padding: 32px 0 48px;
+  margin: 0 auto;
+}
+
+.chainit .a{
+  text-align: center;
+}
+
+.chainit div #chainit_button{
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #413c91;
+  border-radius: 8px;
+}
+
+.sub{
+  background-color: #f1f4fa;
+}
+
+.chainify{
+  width: 720px;
+  padding: 86px 0 64px;
+  margin: 0 auto;
+}
+
+#name2{
+  font-size: 36px;
+  font-weight: 700;
+  color: #161346;
+  margin: 0 auto;
+}
+
+.chainify img{
+  width: 720px;
+  border-radius: 24px;
+  margin-top: 42px;
+}
+
+.chainify #chainify_line1{
+  font-size: 16px;
+  font-weight: 500;
+  color: #4c497b;
+  margin: 0 auto;
+  padding: 32px 0 48px;
+}
+
+.chainify .a{
+  text-align: center;
+}
+
+.chainify div #chainify_button{
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #413c91;
+  border-radius: 8px;
+  padding: 16px 32px;
+}
+
+
+.chainit_nano{
+  width: 720px;
+  padding: 86px 0 64px;
+  margin: 0 auto;
+}
+
+#name3{
+  font-size: 36px;
+  font-weight: 700;
+  color: #161346;
+  margin: 0 auto;
+}
+
+.chainit_nano img{
+  width: 720px;
+  border-radius: 24px;
+  margin-top: 42px;
+}
+
+.chainit_nano #chainit_nano_line1{
+  font-size: 16px;
+  font-weight: 500;
+  color: #4c497b;
+  margin: 0 auto;
+  padding: 32px 0 48px;
+}
+
+.chainit_nano .a{
+  text-align: center;
+}
+
+.chainit_nano div #chainit_nano_button{
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #413c91;
+  border-radius: 8px;
+  padding: 16px 32px;
+}
+
+.sub1{
+  background-color: #161346;
+}
+
+.bottom {
+  width: 720px;
+  padding: 40px 0 32px;
+  margin: 0 auto;
+}
+
+.bottom #name4{
+  font-size: 32px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bottom #bottom_line1{
+  font-size: 16px;
+  font-weight: 400;
+  color: #8287a4;
+  text-align: center;
+  margin: 0 auto;
+  padding: 8px 0 48px;
+}
+
+.bottom .a{
+  text-align: center;
+}
+
+.bottom #bottom_button{
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #413c91;
+  padding: 16px 32px;
+  border-radius: 9999px;
+}
+
+.sub2{
+  background-color: #120f3f;
+  padding: 32px 0;
+}
+
+.sub2 #copyright{
+  font-size: 16px;
+  font-weight: 400;
+  color: #d9d9d9;
+  width: 720px;
+  margin: 0 auto;
+}
