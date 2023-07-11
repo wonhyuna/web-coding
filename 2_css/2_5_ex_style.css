@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.top_menu{
+  background-color: #11172b;
+  padding: 12px 0;
+}
+
+.top_menu div{
+  width: 640px;
+  margin: 0 auto;
+}
+
+.top_menu img{
+  display: inline-block;
+  height: 24px;
+}
+
+.top_menu p{
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Titillium Web';
+  color: #ffffff;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.top_menu p span{
+  font-weight: 300;
+}
+
+.main{
+  background-color: #f8f8f8;
+}
+
+.departure{
+  width: 640px;
+  background-color: #ebeff8;
+  border-radius: 8px;
+  margin: 40px auto 20px;
+  padding: 24px 32px 24px 32px;
+}
+
+.departure img{
+  display: inline-block;
+  height: 12px;
+}
+
+#logo_name{
+  padding: 24px 0 8px;
+}
+
+.departure #name1{
+  display: inline-block;
+  font-size: 16px;
+  color: #b3bdd5;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+#move{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Titillium Web';
+  color: #000000;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+#date{
+  display: inline-block;
+  font-size: 16px;
+  color: #000000;
+  background-color: white;
+  padding: 8px 24px;
+  margin: 0 auto;
+}
+
+#comment{
+  font-size: 12px;
+  color: #b3bdd5;
+  padding-top: 16px;
+  margin: 0 auto;
+}
+
+#line1{
+  border: 0.5px dotted #b3bdd5;
+}
+
+.ticket{
+  margin: 20px auto 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 640px;
+  padding: 8px 24px 38px 0;
+}
+
+
+.ticket_name{
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'Titillium Web';
+  color: #16bf97;
+  margin: 0 auto;
+  padding: 0 24px 8px;
+}
+
+.ticket_line{
+  border:1px solid #dbf1ec;
+  margin: 0 auto 26px;
+}
+
+.state{
+  font-size: 12px;
+  font-weight: 500;
+  color: #b3bdd5;
+  padding: 0 0 4px 24px;
+  margin: 0 auto;
+}
+
+.time{
+  padding-bottom: 4px;
+}
+.time p{
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a345e;
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 24px;
+}
+
+.time .start{
+  padding-right: 10px;
+}
+
+.time .end{
+  padding-left: 10px;
+}
+
+.time img{
+  width: 18px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.airs{
+  font-size: 16px;
+  color: #0b1f66;
+  padding-left: 24px;
+  margin: 0 auto;
+}
+
+.footer{
+  float: right;
+}
+.seat, .convenience, .register{
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a345e;
+  padding-left: 24px;
+  margin: 0 auto;
+}
+
+.soldout{
+  color: #dce0e8; 
+}
