@@ -2,65 +2,105 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>로그인</title>
+    <title>회원가입</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+   >
     <link rel="stylesheet" href="3_9_ex_style.css">
   </head>
   <body>
-    <h1 class="login-title">로그인</h1>
-    
     <form>
-      <label for = "signup-id">아이디</label>
-      <input id = "signup-id" name = "username">
-
-      <label for = "signup-password">비밀번호</label>
-      <input id = "signup-password" name = "password" type = "password">
-    
-      <label>
-        <input name="agreement" type="checkbox">
-        동의합니다
-      </label>
-
-      <input name="birthdate" type="date">
+      <h1 class="login-title">회원가입</h1>
+      <div>
+        <label for="username">아이디</label>
+        <input id="username" name="username" placeholder = "아이디 입력" required autocomplete="on">
+      </div>
+      <div>
+        <label for="password">비밀번호</label>
+        <input id="password" name="password" type = "password">
+      </div>
+      <div>
+        <label for="password-repeat">비밀번호 확인</label>
+        <input id="password-repeat" name="password-repeat" type = "password">
+      </div>
+      <div>
+        <label for="email">이메일</label>
+        <input id="email" name="email" type = "email" autocomplete="email">
+      </div>
       
-      <input name="photos" type="file" accept=".png,.jpg" mutliple>
+      <div>
+        <label>성별</label>
+        <label>
+          <input name="sex" value="male" type = "radio">
+          남성
+        </label>
+        <label>
+          <input name="sex" value="female" type = "radio">
+          여성
+        </label>
+        <label>
+          <input name="sex" value="none" type = "radio">
+          밝히고 싶지 않음
+        </label>
+      </div>
 
-      <input type="number">
-
-
-      <input id="very-bad" name="feeling" value="0" type="radio">
-      <label for="very-bad">아주 나쁨</label>
-      <input id="bad" name="feeling" value="1" type="radio">
-      <label for="bad">나쁨</label>
-      <input id="soso" name="feeling" value="2" type="radio">
-      <label for="soso">보통</label>
-      <input id="good" name="feeling" value="3" type="radio">
-      <label for="good">좋음</label>
-      <input id="very-good" name="feeling" value="4" type="radio">
-      <label for="very-good">아주 좋음</label>
-
-      <label for="signup-feeling">현재 기분</label>
-      <input id="signup-feeling" name="feeling" min="1" min="10" type="range">
-
-
-      <label for="genre">장르</label>
-      <select id="genre" name="genre">
-        <option value="korean">한국 영화</option>
-        <option value="foreign">외국 영화</option>
-        <option value="drama">드라마</option>
-        <option value="documentary">다큐멘터리</option>
-        <option value="vareity">예능</option>
-      </select>
-
-      <textarea name="content"></textarea>
+      <div>
+        <label for="birthdate">생년월일</label>
+        <input id="birthdate" name="birthdate" type = "date">
+      </div>
       
-      <button>
-        로그인
-      </button>
+      <div>
+        <label for="interest">관심사</label>
+        <label>
+          <input name="interest" value="programming" type = "checkbox">
+          프로그래밍
+        </label>
+        <label>
+          <input name="interest" value="sport" type = "checkbox">
+          스포츠
+        </label>
+        <label>
+          <input name="interest" value="film" type = "checkbox">
+          영화
+        </label>
+        <label>
+          <input name="interest" value="economy" type = "checkbox">
+          경제
+        </label>
+      </div>
+
+      <div>
+        <label for="profession">직업</label>
+        <select id = "profession" name = "profession">
+          <option value = "student">학생</option>
+          <option value = "employee">회사원</option>
+          <option value = "self">자영업</option>
+          <option value = "teacher">교사</option>
+          <option value = "player">선수</option>
+          <option value = "musician">음악가</option>
+          <option value = "artist">화가</option>
+        </select>
+        </div>
+
+      <div>
+        <label for="duration">프로그래밍 공부한 기간(년)</label>
+        <input name="duration" min="0" type = "number">
+      </div>
+
+      <div>
+        <label for="profile">프로필 사진</label>
+        <input id="profile" name="profile" type = "file">
+      </div>
+
+      <div>
+        <label for="introduce">소개</label>
+        <textarea id="introduce" name="introduce"></textarea>
+      </div>
+
+      <button>가입하기</button>
     </form>
   </body>
 </html>

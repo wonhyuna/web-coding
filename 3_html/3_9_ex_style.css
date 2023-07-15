@@ -19,7 +19,7 @@ label {
   margin: 16px 0 8px;
 }
 
-input {
+input, textarea, select {
   border: 1px solid #d1d1d1;
   color: #ababab;
   display: block;
@@ -28,6 +28,12 @@ input {
   margin: 8px 0;
   padding: 16px 24px;
   width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: initial;
 }
 
 button {
