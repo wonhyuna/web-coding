@@ -48,6 +48,32 @@
         </div>
         <button class="play-button">▶️ 지금 듣기</button>
       </div>
+      <div class="tracks">
+        <div class="track">
+          <div class="track-number">1</div>
+          <div class="track-title">자주자주(디깅클럽부산 Ver.)</div>
+        </div>
+        <div class="track">
+          <div class="track-number">2</div>
+          <div class="track-title">All</div>
+        </div>
+        <div class="track active">
+          <div class="track-number">3</div>
+          <div class="track-title">나는 어떻게 (Feat. 천예린)</div>
+        </div>
+        <div class="track">
+          <div class="track-number">4</div>
+          <div class="track-title">시간을 거슬러(Feat. 지조)</div>
+        </div>
+        <div class="track">
+          <div class="track-number">5</div>
+          <div class="track-title">우르르</div>
+        </div>
+        <div class="track">
+          <div class="track-number">6</div>
+          <div class="track-title">당신이 맞다는 대답을 할 거예요</div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
@@ -58,4 +84,14 @@ absolute 포지션
 원래 배치에서 자리를 차지하지 않고 그냥 배제됨
 크기를 정해주지 않으면 안의 내용만큼 크기 차지함 (100%나 left, right 둘 다 지정하면 크기 지정 가능)
 꽉 차게 하고 싶으면 top, right, bottom, left 다 0으로 지정 (inset: 0 -> 모든 방향)
+-->
+
+<!--
+fixed - 웹 브라우저 기준 위치
+(스크롤 해도 고정됨)
+기존 배치에서 완전히 빠져서 배제됨
+-> 내비게이션에 사용되기 유용함
+width는 따로 지정하지 않으면 요소 내의 크기로 지정됨
+(top, left, right 지정하면 크기 고정 가능)
+-> 다른 내용들이 겹쳐서 안 보이면 다른 내용들에 마진 넣기 (내비게이션 바만큼)
 -->
