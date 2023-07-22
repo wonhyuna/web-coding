@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  word-break: keep-all;
+  font-family: Pretendard, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+body {
+  background-color: #000;
+  color: #d9d9d9;
+  margin: 0;
+}
+
+section {
+  max-width: 1120px;
+  width: 100%;
+  margin: 80px auto;
+  padding: 0 36px;
+}
+
+.stations {
+  display: grid;
+  /*grid-template: 240px 240px 240px / 240px 240px 240px;*/
+  grid-template: repeat(3, minmax(200px, 1fr)) / repeat(3, minmax(200px, 1fr))
+  /*1fr 1fr 1fr (부분, 일부-상대적 단위 -> 창 크기가 변해도 비율 동일)
+  minmax(200px, 300px) (최소 최대값) - 최대값에만 fr 이용 가능
+  repeat(6, 1fr) -> 1fr을 6번 반복*/
+}
+
+.station {
+  width: 100%;
+  border-radius: 16px;
+}
