@@ -10,42 +10,56 @@ html {
   width: 460px;
   height: 540px;
   gap: 16px;
+  grid-template-areas:
+    "b1 b4 b4 b4"
+    "b1 b4 b4 b4"
+    "b2 b4 b4 b4"
+    "b2 b4 b4 b4"
+    "b3 b5 b5 b6"
+    "b3 b5 b5 b7";
 }
 
 #box1 {
   background-color: white;
-  grid-row: 1 / span 2;
-  grid-column: 1;
+  /* grid-row: 1 / span 2;
+  grid-column: 1; */
+  grid-area: b1;
 }
 
 #box2 {
   background-color: white;
-  grid-row: 3 / span 2;
-  grid-column: 1;
+  /* grid-row: 3 / span 2;
+  grid-column: 1; */
+  grid-area: b2;
 }
 
 #box3 {
   background-color: blue;
-  grid-row: 5 / span 2;
-  grid-column: 1;
+  /* grid-row: 5 / span 2;
+  grid-column: 1; */
+  grid-area: b3;
 }
 
 #box4 {
   background-color: red;
-  grid-row: 1 / span 4;
-  grid-column: 2 / span 3;
+  /* grid-row: 1 / span 4;
+  grid-column: 2 / span 3; */
+  grid-area: b4;
 }
 
 #box5 {
   background-color: white;
-  grid-row: 5 / span 2;
-  grid-column: 2 / span 2;
+  /* grid-row: 5 / span 2;
+  grid-column: 2 / span 2; */
+  grid-area: b5;
 }
 
 #box6 {
   background-color: white;
+  grid-area: b6;
 }
 
 #box7 {
   background-color: yellow;
+  grid-area: b7;
 }
