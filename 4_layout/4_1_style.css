@@ -126,6 +126,8 @@ header {
 
 .track {
   padding: 24px 32px;
+  display: flex;
+  gap: 16px;
 }
 
 .track.active {
@@ -134,10 +136,15 @@ header {
 }
 
 .track-number {
-  display: inline;
-  margin-right: 16px;
+  flex-basis: 24px; /*플렉스박스 요소의 시작 크기*/
 }
 
 .track-title {
-  display: inline;
+  flex-grow: 1; /*flex-grow는 0이 기본값*/
+}
+
+.track-icon{
+  flex-shrink: 0; /*요소의 크기를 변경하지 않음*/
+  width: 16px;
+  height: 16px;
 }
