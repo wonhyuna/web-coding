@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  word-break: keep-all;
+  font-family: Pretendard, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+body {
+  background-color: #000;
+  color: #d9d9d9;
+  margin: 0;
+}
+
+section {
+  max-width: 1120px;
+  width: 100%;
+  margin: 80px auto;
+  padding: 0 36px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 40px 0;
+}
+
+.featured{
+  display: flex;
+}
+
+.featured-info{
+  margin-left: 30px;
+}
+
+.featured-thumb {
+  border-radius: 24px;
+}
+
+.featured-tag {
+  width: fit-content;
+  background-color: #18181b;
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #565662;
+  margin-bottom: 15px;
+}
+
+.featured-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #d9d9d9;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.featured-description {
+  margin: 0;
+  color: #868686;
+}
+
+.playlists{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.playlist-thumb {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.playlist-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 16px 0 8px;
+}
+
+.playlist-artist {
+  color: #868686;
+  margin: 0;
+}
+
+.artists{
+  display: flex;
+}
+
+.artist {
+  width: 120px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.artist-profile {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.artist-name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 24px 0 0;
+}
+
+.stations{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.station {
+  width: 300px;
+  margin: 0 20px 20px 0;
+  aspect-ratio: 1;
+  border-radius: 16px;
+}
+
+.charts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.chart-info{
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chart-rank{
+  display: flex;
+}
+
+.charts-header {
+  margin: 32px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.charts-title {
+  margin: 0;
+}
+
+.charts-see-all {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #d9d9d9;
+}
+
+.chart {
+  width: 100%;
+  display: flex;
+}
+
+.chart-number {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #1a1a1a;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-change {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.2);
+  padding: 7px;
+}
+
+.chart-change.up {
+  color: #d93045;
+}
+
+
+.chart-cover {
+  width: 160px;
+  height: 160px;
+  border-radius: 16px;
+}
+
+.chart-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 5px;
+}
+
+.chart-artist {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #868686;
+}
