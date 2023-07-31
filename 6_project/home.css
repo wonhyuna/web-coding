@@ -3,6 +3,14 @@
   font-family: "Pretendard";
 }
 
+body{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+  
+}
+
 header{
   background-color: #F5F7FB;
   border-radius: 80px;
@@ -13,6 +21,7 @@ header{
   justify-content: center;
   padding: 80px 40px;
   color: #464E5E;
+  position: fixed;
 }
 
 .web_name{
@@ -52,4 +61,41 @@ header{
 
 .XX{
   padding-left: 18px;
+}
+
+.main{
+  margin-left: 350px;
+}
+
+.add{
+  display: inline-block;
+  text-decoration: none;
+  color: #464E5E;
+  font-weight: 500;
+  border: 3px dashed #DEE3EC;
+  width: 528px;
+  height: 78px;
+  font-size: 24px;
+  padding: 25px 45px;
+}
+
+.add{
+  display: inline-block;
+  text-decoration: none;
+  color: #464E5E;
+  font-weight: 500;
+  border: 3px dashed #DEE3EC;
+  width: 528px;
+  height: 78px;
+  font-size: 24px;
+  padding: 25px 45px;
+}
+
+.mbticolor div{
+  width: 528px;
+  height: 78px;
+}
+
+.main_id, .main_mbti, .main_img, .main_color, .main_code{
+  float: left;
 }
