@@ -98,4 +98,20 @@ header{
 
 .main_id, .main_mbti, .main_img, .main_color, .main_code{
   float: left;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.main_id{
+  color: #BFC8DA;
+  margin: 24px 48px;
+}
+
+.main_mbti{
+  color: #464E5E;
+  background-color: rgba(178, 189, 204, 0.2);
+  border-radius: 8px;
+  padding: 8px;
+  margin: 16px 10px;
+  font-weight: 500;
 }
