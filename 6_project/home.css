@@ -97,7 +97,7 @@ header{
   height: 78px;
 }
 
-.list:hover{
+.list:hover, .add:hover{
   background-color: #F5F7FB;
 }
 
