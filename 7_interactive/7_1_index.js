@@ -27,3 +27,16 @@ console.log(btns);
 
 const allTags = documnet.getElementsByTagName("*");
 console.log(allTags);
+
+//css 선택자로 태그 선택하기
+const myTag_1 = document.querySelector('#myNumber');
+console.log(myTag_1);
+
+const myTag_2 = document.querySelector('.color-btn');
+console.log(myTag_1); //여러 개 중 첫번째만 출력됨
+
+const myTag_3 = document.querySelectorAll('.color-btn');
+console.log(myTag_3); //여러 개 출력됨 NodeList로
+
+//querySelectorAll은 비어있으면 빈 NodeList가 리턴됨 
+//querySelector는 null값 리턴함
